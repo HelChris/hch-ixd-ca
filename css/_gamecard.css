@@ -1,0 +1,15 @@
+img {
+	padding-bottom: 1rem;
+}
+.image-size {
+	max-width: 299px;
+	padding: 1rem;
+}
+.cart-game {
+	display: flex;
+	align-items: center;
+}
+.game-card {
+	object-fit: cover;
+	padding: 1rem;
+}

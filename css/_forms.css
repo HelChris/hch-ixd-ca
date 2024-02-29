@@ -1,0 +1,19 @@
+.form-input {
+	background-color: #b2dcdd;
+	border: none;
+	border-radius: 0px;
+	line-height: 2.5em;
+	text-align: left;
+	padding-left: 0.8rem;
+	margin: 0.5rem;
+	margin-right: 0.1rem;
+}
+.form {
+	min-width: 40rem;
+}
+.shipping-form,
+.payment-form {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}

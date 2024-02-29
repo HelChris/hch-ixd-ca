@@ -1,0 +1,26 @@
+.hero-banner {
+	background-image: url(../images/hero-v5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	min-height: 600px;
+}
+.hero-wrapper {
+	background-color: #000000;
+	opacity: 0.5;
+}
+.hero-button-container {
+	display: grid;
+	padding: 1.2rem;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 15rem));
+	gap: 2rem;
+	justify-content: center;
+}
+.hero-banner p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	color: #ffffff;
+	padding-top: 12rem;
+}
