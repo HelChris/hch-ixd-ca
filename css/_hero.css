@@ -1,0 +1,23 @@
+.bg-image-wrapper {
+	background-image: url(../images/hero-v5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	min-height: 100vh;
+}
+.hero-button-h1-wrapper {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex-box;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.hero-button-wrapper {
+	padding-top: 1rem;
+	justify-content: center;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 1rem;
+}

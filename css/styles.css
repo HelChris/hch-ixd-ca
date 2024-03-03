@@ -1,0 +1,39 @@
+@import "_layout.css";
+@import "_images.css";
+@import "_gamespage.css";
+@import "_typography.css";
+@import "_buttons.css";
+@import "_forms.css";
+@import "_nav.css";
+@import "_hero.css";
+@import "_gamecard.css";
+@import "_darkmode.css";
+@import "_mediaqueries.css";
+
+:root {
+	--background-color-button: #fff;
+	--button-border-color: #000;
+	--copy-color: #000;
+	--h2-game-category: #000;
+	--copy-color-hover: #fff;
+	--primary-color: #59bed3;
+	--form-fill-color: #b2dcdd;
+	--accent-color: #f0ca00;
+	--success-color: #59d365;
+	--error-color: red;
+	--background-body: linear-gradient(355deg, rgba(140, 201, 208, 1) 24%, rgba(197, 245, 251, 1) 63%);
+	--background-footer: url("/images/footer-banner.jpg");
+	--background-nav-wrapper: rgba(255, 255, 255, 0.8);
+}
+.dark-mode {
+	--background-color-button: #000;
+	--copy-color: #fff;
+	--copy-color-hover: #000;
+	--primary-color: #c76ed7;
+	--background-body: url("/images/cosmo2-dark.jpg");
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

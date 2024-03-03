@@ -1,0 +1,101 @@
+@media (max-width: 400px) {
+	nav {
+		padding: 0;
+		gap: 0;
+	}
+	.darkmode-button {
+		padding: 0;
+	}
+}
+@media (max-width: 800px) {
+	.hero-button-wrapper {
+		flex-wrap: wrap;
+	}
+}
+
+/* @media (max-width: 700px) {
+	.hero-button-container,
+	.category-navigation {
+		grid-template-columns: repeat(1, minmax(10rem, 15rem));
+	}
+	.product-list {
+		justify-items: center;
+	}
+	.nav {
+		flex-direction: column;
+	}
+
+	.contact-page,
+	.about-page {
+		flex-wrap: wrap;
+	}
+
+	.search-container {
+		display: none;
+	}
+
+	.game-detail-page,
+	.in-cart-page,
+	.payment-shipping-sections {
+		padding-top: 2rem;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.game-detail {
+		max-width: 80%;
+		align-content: center;
+		display: flex;
+		flex-direction: column;
+		max-width: 300px;
+	}
+	.contact-button {
+		display: flex;
+		flex-direction: column;
+		margin: 1rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.nav {
+		flex-direction: column;
+	}
+
+	.contact-page,
+	.about-page {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1200px) {
+	.hero-button-container,
+	.category-navigation {
+		grid-template-columns: repeat(2, minmax(10rem, 15rem));
+	}
+
+	.product-list,
+	.action-games,
+	.adventure-games,
+	.family-games,
+	.sports-games {
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+		grid-column: auto;
+		justify-content: center;
+	}
+
+	.contact-page,
+	.about-page {
+		flex-wrap: wrap;
+	}
+}
+
+@media (min-width: 1200px) {
+	.product-list,
+	.action-games,
+	.adventure-games,
+	.family-games,
+	.sports-games {
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+		grid-column: auto;
+		justify-content: center;
+	}
+} */

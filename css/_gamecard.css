@@ -1,0 +1,28 @@
+img {
+	padding-bottom: 1rem;
+}
+.image-size {
+	max-width: 299px;
+	padding: 1rem;
+}
+.cart-game {
+	display: flex;
+	align-items: center;
+}
+.game-card {
+	object-fit: cover;
+	padding: 1rem;
+}
+
+/*  CREATE GAMECARD CSS HERE
+        This will be det box behind everything on each game, including:
+				    game image
+						game title
+						game price
+						game genre
+						button "read more"
+						button "add to cart"
+					  */
+.game-card-wrapper {
+	box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+}
