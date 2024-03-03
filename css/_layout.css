@@ -22,6 +22,10 @@ footer {
 	padding-bottom: 2em;
 	text-decoration: none;
 }
+.footer-nav {
+	padding: 1rem;
+	font-weight: bolder;
+}
 .gamehub-logobanner-small {
 	width: 100%;
 }
