@@ -1,12 +1,13 @@
 .game-category-banner {
 	background-image: url(../images/banner-turkis-smal.jpg);
 	background-repeat: no-repeat;
+	/* box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); */
+	box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
 	text-align: left;
+	color: var(--h2-game-category);
 	background-size: cover;
-	padding-top: 0.5em;
-	padding-left: 3em;
+	padding: 0.5rem 0.5rem 0.5rem 3rem;
 }
-
 .game-category-section {
 	display: flex;
 	flex-direction: row;
@@ -14,7 +15,6 @@
 	gap: 2rem;
 	padding: 0rem 0rem 1rem 2rem;
 }
-
 .category-navigation {
 	display: flex;
 	flex-wrap: wrap;
@@ -22,17 +22,6 @@
 	gap: 1rem;
 	padding-bottom: 1rem;
 }
-/*
-.category-navigation {
-	text-align: center;
-	padding-bottom: 1rem;
-	display: grid;
-	padding: 1.2rem;
-	grid-template-columns: repeat(auto-fit, minmax(10rem, 15rem));
-	gap: 2rem;
-	justify-content: center;
-} */
-
 .product-list {
 	max-width: 100%;
 	display: grid;
