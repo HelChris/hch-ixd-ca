@@ -1,4 +1,5 @@
 @import "_layout.css";
+@import "_images.css";
 @import "_gamespage.css";
 @import "_typography.css";
 @import "_buttons.css";
@@ -6,4 +7,29 @@
 @import "_nav.css";
 @import "_hero.css";
 @import "_gamecard.css";
+@import "_darkmode.css";
 @import "_mediaqueries.css";
+
+:root {
+	--background-color: rgba(255, 255, 255, 0.8);
+	--copy-color: #000;
+	--copy-color-hover: #fff;
+	--primary-color: #59bed3;
+	--form-fill-color: #b2dcdd;
+	--accent-color: #f0ca00;
+	--success-color: #59d365;
+	--error-color: red;
+}
+
+.dark-mode {
+	--background-color: #000;
+	--copy-color: #fff;
+	--copy-color-hover: #000;
+	--primary-color: #c76ed7;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

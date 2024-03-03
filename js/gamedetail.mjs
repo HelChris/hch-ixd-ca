@@ -1,5 +1,5 @@
-import { getQueryStringParam } from "./getQueryStringParam.js";
-import { url } from "./constants.js";
+import { getQueryStringParam } from "./getQueryStringParam.mjs";
+import { url } from "./constants.mjs";
 
 async function getGame() {
 	const id = getQueryStringParam("id");

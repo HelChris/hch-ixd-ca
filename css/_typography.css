@@ -77,7 +77,9 @@ footer li a:hover {
 }
 
 .heroh1 {
-	color: white;
+	color: var(--copy-color);
+	text-shadow: #fc0 1px 0 8px;
+
 	position: center;
 	padding-top: 15rem;
 	padding-bottom: 1rem;

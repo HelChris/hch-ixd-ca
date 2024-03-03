@@ -1,5 +1,5 @@
-import { createGames } from "./ui/games/createGames.js";
-import { url } from "./constants.js";
+import { createGames } from "./ui/games/createGames.mjs";
+import { url } from "./constants.mjs";
 
 async function getGames() {
 	try {

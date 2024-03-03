@@ -1,26 +1,28 @@
-.hero-banner {
+.bg-image-wrapper {
 	background-image: url(../images/hero-v5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-	min-height: 600px;
+	min-height: 100vh;
 }
-.hero-wrapper {
-	background-color: #000000;
-	opacity: 0.5;
-}
+
 .hero-button-container {
-	display: grid;
-	padding: 1.2rem;
-	grid-template-columns: repeat(auto-fit, minmax(10rem, 15rem));
-	gap: 2rem;
-	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
-.hero-banner p {
-	text-transform: uppercase;
+
+.hero-button {
+	border-width: 0.2rem;
+	border-radius: 7rem;
+	text-align: center;
 	font-weight: bold;
-	font-size: 1.5rem;
-	letter-spacing: 0.2rem;
-	color: #ffffff;
-	padding-top: 12rem;
+	line-height: 120%;
+	padding: 0.5rem;
+	text-decoration: none;
+	margin: 0.5rem;
+}
+
+.hero-button:hover {
+	text-decoration: underline;
 }
