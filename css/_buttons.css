@@ -1,5 +1,7 @@
 .button {
 	border-width: 0.2rem;
+	min-width: 151px;
+	max-height: 50px;
 	border-radius: 7rem;
 	text-align: center;
 	font-size: 1rem;

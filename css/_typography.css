@@ -8,6 +8,11 @@
 	src: local(AzeretMono-Light),
 		url("../fonts/AzeretMono-Light.ttf") format("truetype");
 }
+
+word-break {
+	word-break: break-all;
+}
+
 .error {
 	color: red;
 	font-weight: bolder;
@@ -79,10 +84,8 @@ footer li a:hover {
 .heroh1 {
 	color: var(--copy-color);
 	text-shadow: #fc0 1px 0 8px;
-
-	position: center;
-	padding-top: 15rem;
-	padding-bottom: 1rem;
+	/* padding-top: 15rem;
+	padding-bottom: 1rem; */
 }
 .h1-welcome {
 	text-decoration-line: underline;

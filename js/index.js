@@ -1,5 +1,5 @@
 import { url } from "./constants.mjs";
-import { darkmode } from "./ui/shared/darkmode.mjs";
+// import { darkmode } from "./ui/shared/darkmode.mjs";
 
 async function getGames() {
 	try {

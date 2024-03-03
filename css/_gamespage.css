@@ -16,6 +16,14 @@
 }
 
 .category-navigation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	padding-bottom: 1rem;
+}
+/*
+.category-navigation {
 	text-align: center;
 	padding-bottom: 1rem;
 	display: grid;
@@ -23,7 +31,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 15rem));
 	gap: 2rem;
 	justify-content: center;
-}
+} */
 
 .product-list {
 	max-width: 100%;

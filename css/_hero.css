@@ -5,24 +5,19 @@
 	text-align: center;
 	min-height: 100vh;
 }
-
-.hero-button-container {
-	display: flex;
+.hero-button-h1-wrapper {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex-box;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
 }
-
-.hero-button {
-	border-width: 0.2rem;
-	border-radius: 7rem;
-	text-align: center;
-	font-weight: bold;
-	line-height: 120%;
-	padding: 0.5rem;
-	text-decoration: none;
-	margin: 0.5rem;
-}
-
-.hero-button:hover {
-	text-decoration: underline;
+.hero-button-wrapper {
+	padding-top: 1rem;
+	justify-content: center;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 1rem;
 }
