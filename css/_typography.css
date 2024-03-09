@@ -20,6 +20,7 @@ word-break {
 }
 p {
 	font-family: AzeretMono-Light;
+	color: var(--copy-color);
 }
 li {
 	list-style: none;
@@ -29,10 +30,10 @@ h1 {
 	text-decoration-line: underline;
 	text-decoration-thickness: 3px;
 	text-decoration-color: #f0ca00;
+	color: var(--copy-color);
 }
 a {
 	padding: 0.2rem;
-	color: black;
 	text-align: center;
 	text-decoration: none;
 	list-style-type: none;
