@@ -7,34 +7,87 @@
 @import "_nav.css";
 @import "_hero.css";
 @import "_gamecard.css";
-@import "_darkmode.css";
+@import "_themeswitcher.css";
 @import "_mediaqueries.css";
 
-:root {
-	--background-color-button: #fff;
-	--button-border-color: #000;
-	--copy-color: #000;
-	--h2-game-category: #000;
-	--copy-color-hover: #fff;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root[data-theme="light"] {
 	--primary-color: #59bed3;
 	--form-fill-color: #b2dcdd;
 	--accent-color: #f0ca00;
 	--success-color: #59d365;
 	--error-color: red;
-	--background-body: linear-gradient(355deg, rgba(140, 201, 208, 1) 24%, rgba(197, 245, 251, 1) 63%);
+
+	--background-body: linear-gradient(
+		355deg,
+		rgba(140, 201, 208, 1) 24%,
+		rgba(197, 245, 251, 1) 63%
+	);
 	--background-footer: url("/images/footer-banner.jpg");
 	--background-nav-wrapper: rgba(255, 255, 255, 0.8);
+
+	--button-background-color: #fff;
+	--button-border-color: #000;
+
+	--headline-color: #000;
+	--copy-color: #3c3a47;
+	--muted-copy-color: #b1b0b5;
+	--copy-color-hover: #f5f5f6;
+	--h2-game-category: #000;
+
+	--switch-bg: #f5f5f6;
+	--switch-circle-bg: #ffd371;
+	--switch-circle-pos: 0.33rem; /* */
+	--icon-sun: #997f44;
+	--icon-moon: #b1b0b5;
+
+	/*--icon-social: xx;
+	 --icon-social-hover: xx;
+
+	 --input-bg: xx;
+	 --input-bg-hover: xx;
+	 --input-border-focus: xx;
+	 --input-text: xx;
+	 -- input-placeholder: */
 }
-.dark-mode {
-	--background-color-button: #000;
-	--button-border-color: #fff;
-	--copy-color: #fff;
-	--copy-color-hover: #000;
+
+:root[data-theme="dark"] {
 	--primary-color: #c76ed7;
+	--form-fill-color: #b2dcdd;
+	--accent-color: #f0ca00;
+	--success-color: #59d365;
+	--error-color: red;
+
 	--background-body: url("/images/cosmo2-dark.jpg");
-}
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	--background-footer: url("/images/footer-banner.jpg");
+	--background-nav-wrapper: rgba(255, 255, 255, 0.8);
+
+	--button-background-color: #3c3a47;
+	--button-border-color: #fff;
+
+	--headline-color: #f5f5f6;
+	--copy-color: #f5f5f6;
+	--muted-copy-color: #b1b0b5;
+	--copy-color-hover: #3c3a47;
+	--h2-game-category: #fff;
+
+	--switch-bg: #2d2c35;
+	--switch-circle-bg: #7190ff;
+	--switch-circle-pos: 2.99rem; /*2.88rem??? */
+	--icon-sun: var(--muted-copy-color);
+	--icon-moon: #dce3ff;
+
+	/*--icon-social: xx;
+	 --icon-social-hover: xx;
+
+	 --input-bg: #2d2c35;
+	 --input-bg-hover: xx;
+	 --input-border-focus: xx;
+	 --input-text: xx;
+	 -- input-placeholder: */
 }

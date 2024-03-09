@@ -1,8 +1,3 @@
-button {
-	border-style: none;
-	background: none;
-}
-
 .button {
 	border-width: 2.3px;
 	border-style: solid;
@@ -23,7 +18,7 @@ button {
 	background: var(--primary-color);
 }
 .button-white {
-	background-color: var(--background-color-button);
+	background-color: var(--button-background-color);
 	color: var(--copy-color);
 }
 .button-turquoise {
@@ -31,7 +26,7 @@ button {
 	color: var(--copy-color);
 }
 .button-turquoise:hover {
-	background-color: var(--background-color-button);
+	background-color: var(--button-background-color);
 }
 /* .search-button {
 	border: none;

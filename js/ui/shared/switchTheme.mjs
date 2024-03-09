@@ -1,16 +1,7 @@
-import { getGames } from "./getGames.mjs";
-// import { handleThemeToggle } from "./ui/shared/darkmode.mjs";
-
-//call the function to setup the theme toggle
-// handleThemeToggle();
-
-// get the games to the index site
-getGames();
-
 //switch function
 const switchTheme = () => {
 	// get root element and data-theme value
-	const rootElm = document.documentElement;
+	const rootElm = document.Element;
 	let dataTheme = rootElm.getAttribute("data-theme"),
 		newTheme;
 
