@@ -27,6 +27,7 @@
 }
 .dark-mode {
 	--background-color-button: #000;
+	--button-border-color: #fff;
 	--copy-color: #fff;
 	--copy-color-hover: #000;
 	--primary-color: #c76ed7;

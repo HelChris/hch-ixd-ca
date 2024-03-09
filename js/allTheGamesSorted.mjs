@@ -1,5 +1,9 @@
 import { createGames } from "./ui/games/createGames.mjs";
 import { url } from "./constants.mjs";
+import { handleThemeToggle } from "./ui/shared/darkmode.mjs";
+
+//call the function to setup the theme toggle
+handleThemeToggle();
 
 async function getGames() {
 	try {

@@ -1,7 +1,6 @@
 import { url } from "./constants.mjs";
-// import { darkmode } from "./ui/shared/darkmode.mjs";
 
-async function getGames() {
+export async function getGames() {
 	try {
 		const response = await fetch(url);
 
