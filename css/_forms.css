@@ -14,7 +14,15 @@
 	justify-content: center;
 	align-items: center;
 }
-.contact-form {
+.signin-buttons {
+	display: flex;
+	flex-direction: row;
+	padding-top: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+.contact-form,
+.sign-in-form {
 	display: flex;
 	flex-direction: column;
 	width: 20rem;
