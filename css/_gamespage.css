@@ -2,7 +2,7 @@
 	background-image: var(--game-category-background);
 	background-repeat: no-repeat;
 	/* box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); */
-	box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+	box-shadow: var(--game-category-banner-box-shadow);
 	text-align: left;
 	color: var(--h2-game-category);
 	background-size: cover;
