@@ -12,6 +12,9 @@ const switchTheme = () => {
 
 	//set the new HTML attribute
 	rootElm.setAttribute("data-theme", newTheme);
+
+	//Set the new local storage item
+	localStorage.setItem("theme", newTheme);
 };
 
 //Add event listener for the theme switcher

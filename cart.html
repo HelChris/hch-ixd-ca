@@ -7,6 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to GameHub | Cart</title>
   <meta name="description" content="GameHub, in cart">
+  <script>
+    //check local storage
+    let localS = localStorage.getItem('theme'),
+      themeToSet = localS
+
+    //If local storage is not set, we check the OS preference
+    if (!localS) {
+      themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    }
+
+    //set the correct theme
+    document.documentElement.setAttribute('data-theme', themeToSet);
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,8 +83,10 @@
     </div>
   </main>
   <footer>
-    <a href="about.html">About us</a>
-    <a href="contact.html">Contact us</a>
+    <div class="footer-nav">
+      <a href="about.html" class="nav-items">About us</a>
+      <a href="contact.html" class="nav-items">Contact us</a>
+    </div>
     <ul class="footer-some">
       <li>
         <div class="some">

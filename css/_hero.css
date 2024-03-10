@@ -6,13 +6,11 @@
 	min-height: 100vh;
 }
 .hero-button-h1-wrapper {
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex-box;
+	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	position: relative;
+	top: 50vh;
+	left: -8rem;
 }
 .hero-button-wrapper {
 	padding-top: 1rem;

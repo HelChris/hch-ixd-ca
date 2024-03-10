@@ -6,95 +6,29 @@
 	gap: 1.33rem;
 	cursor: pointer;
 	padding: 0.66rem;
+	margin: 0.5rem;
 	position: relative;
+	transform: var(--default-border-radius);
 }
-
 #theme-switcher::before {
 	content: "";
 	position: absolute;
-	width: 2.22rem;
-	height: 2.22rem;
+	width: 2rem;
+	height: 2rem;
 	background-color: var(--switch-circle-bg);
 	border-radius: 50px;
 	z-index: 0;
 	left: 0;
 	transform: translateX(var(--switch-circle-pos));
+	transition: var(--default-transition);
 }
-
 #theme-switcher svg {
 	z-index: 1;
+	transition: var(--default-transition);
 }
-
 .icon-sun {
 	fill: var(--icon-sun);
 }
-
 .icon-moon {
 	fill: var(--icon-moon);
 }
-
-/* .darkmode-label {
-	width: 90px;
-	height: 36px;
-	position: relative;
-	display: block;
-	background: #ebebeb;
-	border-radius: 36px;
-	box-shadow: inset 0px 0.9px 2.7px rgba(0, 0, 0, 0.4),
-		inset 0px -0.9px 2.7px rgba(255, 255, 255, 0.4);
-	cursor: pointer;
-	transition: 0.3s;
-}
-.darkmode-label:after {
-	content: "";
-	width: 32.4px;
-	height: 32.4px;
-	position: absolute;
-	top: 1.8px;
-	left: 1.8px;
-	background: linear-gradient(180deg, #ffcc89, #d8860b);
-	border-radius: 32.4px;
-	box-shadow: 0px 0.09px 1.8px rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-}
-.darkmode-input {
-	width: 0;
-	height: 0;
-	visibility: hidden;
-}
-.darkmode-input:checked + .darkmode-label {
-	background: #242424;
-}
-.darkmode-input:checked + .darkmode-label:after {
-	left: 88.2px;
-	transform: translateX(-100%);
-	background: linear-gradient(180deg, #777, #3a3a3a);
-}
-.darkmode-label:active:after {
-	width: 46.8px;
-}
-.darkmode-label svg {
-	position: absolute;
-	width: 21.6px;
-	top: 7.2px;
-	z-index: 100;
-}
-.darkmode-label svg.sun {
-	left: 7.2px;
-	transition: 0.3s;
-}
-.darkmode-label svg.moon {
-	left: 61.2px;
-	fill: #7e7e7e;
-	transition: 0.3s;
-}
-.darkmode-input:checked + .darkmode-label svg.sun {
-	fill: #7e7e7e;
-}
-.darkmode-input:checked + .darkmode-label svg.moon {
-	fill: #fff;
-}
-.darkmode-button {
-	display: flex;
-	padding: 0.1rem 2rem 0.1rem 2rem;
-} */

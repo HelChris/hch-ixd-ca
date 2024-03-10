@@ -1,8 +1,4 @@
 import { getGames } from "./getGames.mjs";
-// import { handleThemeToggle } from "./ui/shared/darkmode.mjs";
-
-//call the function to setup the theme toggle
-// handleThemeToggle();
 
 // get the games to the index site
 getGames();
@@ -18,6 +14,9 @@ const switchTheme = () => {
 
 	//set the new HTML attribute
 	rootElm.setAttribute("data-theme", newTheme);
+
+	//Set the new local storage item
+	localStorage.setItem("theme", newTheme);
 };
 
 //Add event listener for the theme switcher

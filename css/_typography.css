@@ -33,6 +33,7 @@ h1 {
 	color: var(--copy-color);
 }
 a {
+	color: var(--color-nav-link-icon);
 	padding: 0.2rem;
 	text-align: center;
 	text-decoration: none;
@@ -63,7 +64,7 @@ footer li a:hover {
 	text-decoration: underline;
 }
 .heroh1 {
-	color: var(--copy-color);
+	color: var(--headline-color);
 	text-shadow: #fc0 1px 0 8px;
 }
 .h1-welcome {
@@ -73,4 +74,8 @@ footer li a:hover {
 }
 .forgotten-password {
 	text-decoration: underline;
+}
+
+.text {
+	color: var(--copy-color);
 }
