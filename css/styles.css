@@ -103,4 +103,6 @@
 	--default-transition: color 0.3s ease-in-out,
 		background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
 		fill 0.3s ease-in-out, transform 0.3s ease-in-out;
+	--font-fancy: kingdom;
+	--font-regular: Supreme, sans-serif;
 }
