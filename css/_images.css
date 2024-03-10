@@ -1,8 +1,16 @@
 .logo-gamehub-png {
-	/* position: absolute; */
-	/* top: 1rem;
-	left: 0; */
 	float: left;
 	max-width: 90%;
-	/* z-index: 1; */
+}
+.about-img,
+.contact-img {
+	max-width: 100%;
+	padding: 1rem;
+}
+.gamehub-logobanner-small {
+	width: 100%;
+}
+.success-icon {
+	display: flex;
+	justify-content: center;
 }

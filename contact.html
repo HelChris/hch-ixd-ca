@@ -77,34 +77,38 @@
   </header>
   <main>
     <div class="contact-page">
-      <div class="contact-img">
+      <div class="content-wrapper">
         <h1 class="contact-h1">Contact us</h1>
-        <img src="/images/image-contact-us.jpg" class="contact-img"
-          alt="gamers keyboard with pink and turquoise light" />
+        <div class="paragrafs">
+          <p>Do you have a game you want to sell?</p>
+          <p>Any feedback or tips you want to share?</p>
+          <p>Send a message to: contact@gamers.com</p>
+          <p>or fill out the form. Thank you.</p>
+        </div>
+        <form class="contact-form contact-form-wrapper">
+          <div class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-input" required minlength="2" maxlength="30" />
+          </div>
+          <div class="contact-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-input" required />
+          </div>
+          <div class="contact-form">
+            <label for="message">Message:</label>
+            <input type="text" name="message" id="message" class="form-input message-field" required />
+          </div>
+          <div class="newsletter">
+            <input class="contact-checkbox" type="checkbox" id="checkbox" />
+            <label for="checkbox">Yes, I would like to subscribe to GameHub's newsletter!</label>
+          </div>
+          <div>
+            <input class="button button-white contact-button" type="submit" value="Send" />
+          </div>
+        </form>
+        <!-- <img src=" /images/image-contact-us.jpg" class="contact-img"
+          alt="gamers keyboard with pink and turquoise light" /> -->
       </div>
-      <form>
-        <p>Do you have a game you want to sell?</p>
-        <p>Any feedback or tips you want to share?</p>
-        <p>Send a message to: contact@gamers.com</p>
-        <p>or fill out the form. Thank you.</p>
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" class="form-input" required />
-        </div>
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" class="form-input required" />
-        </div>
-        <div>
-          <label for="message">Message:</label>
-          <input type="text" name="message" id="message" class="form-input required" />
-        </div>
-        <div>
-          <input class="contact-checkbox" type="checkbox" id="checkbox" />
-          <label for="checkbox">Yes, I would like to subscribe to GameHub's newsletter!</label>
-          <a href="contact.html" class="button button-white contact-button">Send</a>
-        </div>
-      </form>
     </div>
   </main>
   <footer>

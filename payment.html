@@ -76,61 +76,65 @@
   </header>
   <main>
     <div class="payment-shipping-sections">
-      <section class="payment">
-        <h1 class="cart-h1">Payment</h1>
-        <form class="payment-form" method="get">
-          <div>
-            <input type="radio" id="radio1" name="radiobutton" value="val1" />
-            <label>PayPal <iconify-icon icon="cib:cc-paypal"></iconify-icon></label>
-          </div>
-          <div>
-            <input type="radio" id="radio2" name="radiobutton" value="val2" checked />
-            <label>Credit Card <iconify-icon icon="cib:cc-visa"></iconify-icon></label>
-          </div>
-          <div class="payment-form">
-            <label for="cardnumber">Credit Card number</label>
-            <input type="number" name="cardnumber" id="cardnumber" class="form-input" required />
-          </div>
-          <div class="payment-form">
-            <label for="cvc">CVC</label>
-            <input type="number" name="cvc" id="cvc" class="form-input" required />
-          </div>
-          <div>
-            <label for="exp-date">Exp.date</label>
-            <input type="number" name="exp-date" id="exp-date" class="form-input" required />
-          </div>
-        </form>
-      </section>
-      <section class="shipping">
-        <h2 class="cart-h1">Shipping</h2>
-        <form>
-          <div class="shipping-form">
-            <label for="first-name">First name</label>
-            <input type="text" name="first-name" id="first-name" class="form-input" required />
-            <label for="last-name">Last name</label>
-            <input type="text" name="last-name" id="last-name" class="form-input" required />
-          </div>
-          <div class="shipping-form">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="form-input" required />
-          </div>
-          <div class="shipping-form">
-            <label for="adress">Street adress</label>
-            <input type="text" name="address" id="adress" class="form-input" />
-          </div>
-          <div class="shipping-form">
-            <label for="state-province">State/Province</label>
-            <input type="text" name="state-province" id="state-province" class="form-input" />
-            <label for="city">City</label>
-            <input type="text" name="city" id="city" class="form-input" />
-          </div>
-        </form>
-      </section>
+      <div class="content-wrapper payment-wrapper">
+        <div class="pay-ship">
+          <section class="payment">
+            <h1 class="cart-h1">Payment</h1>
+            <form class="payment-form" method="get">
+              <div>
+                <input type="radio" id="radio1" name="radiobutton" value="val1" />
+                <label>PayPal <iconify-icon icon="cib:cc-paypal"></iconify-icon></label>
+              </div>
+              <div class="radio-form">
+                <input type="radio" id="radio2" name="radiobutton" value="val2" checked />
+                <label>Credit Card <iconify-icon icon="cib:cc-visa"></iconify-icon></label>
+              </div>
+              <div class="payment-form">
+                <label for="cardnumber">Credit Card number</label>
+                <input type="number" name="cardnumber" id="cardnumber" class="form-input" required />
+              </div>
+              <div class="payment-form">
+                <label for="cvc">CVC</label>
+                <input type="number" name="cvc" id="cvc" class="form-input" required />
+              </div>
+              <div class="payment-form">
+                <label for="exp-date">Exp.date</label>
+                <input type="number" name="exp-date" id="exp-date" class="form-input" required />
+              </div>
+            </form>
+          </section>
+          <section class="shipping">
+            <h2 class="cart-h1">Shipping</h2>
+            <form>
+              <div class="shipping-form">
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name" class="form-input" required />
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name" class="form-input" required />
+              </div>
+              <div class="shipping-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-input" required />
+              </div>
+              <div class="shipping-form">
+                <label for="adress">Street adress</label>
+                <input type="text" name="address" id="adress" class="form-input" />
+              </div>
+              <div class="shipping-form">
+                <label for="state-province">State/Province</label>
+                <input type="text" name="state-province" id="state-province" class="form-input" />
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="form-input" />
+              </div>
+            </form>
+          </section>
+        </div>
+        <div class="checkout-buttons">
+          <a href="cart.html" class="button button-white">Back to cart</a>
+          <a href="success.html" class="button button-turquoise">Confirm Payment</a>
+        </div>
+      </div>
     </div>
-    <section class="checkout-buttons">
-      <a href="cart.html" class="button button-turquoise">Back to cart</a>
-      <a href="success.html" class="button button-white">Confirm Payment</a>
-    </section>
   </main>
   <footer>
     <div class="footer-nav">

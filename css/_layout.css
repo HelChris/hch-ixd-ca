@@ -1,3 +1,6 @@
+/* ============================================= */
+/* ========== UNIVERSAL =======================  */
+/* ============================================ */
 html {
 	scroll-behavior: smooth;
 }
@@ -25,71 +28,14 @@ footer {
 	padding: 1rem;
 	font-weight: bolder;
 }
-.gamehub-logobanner-small {
-	width: 100%;
-}
-.in-cart-page,
-.sign-in-page {
-	display: flex-block;
-	align-items: center;
-	max-width: 43rem;
-	justify-content: center;
-	padding: 1rem;
-	margin: 0 auto;
-}
-.about-page,
-.contact-page {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	gap: 5rem;
-	padding: 1rem;
-	justify-content: center;
-}
-.payment-shipping-sections {
-	display: flex;
-	text-align: left;
-	gap: 5rem;
-	justify-content: center;
-	padding: 1.5rem;
-}
-.success-page {
-	display: flex-block;
-	text-align: center;
-}
-.about-some {
-	display: flex;
-	justify-content: center;
-	color: #000000;
-}
-.about-img,
-.contact-img,
-.star-logo {
-	max-width: 100%;
-}
-.star-logo {
-	text-align: center;
-}
-.about-us-info {
-	max-width: 40rem;
-	min-width: 10rem;
-}
-.game-detail-page {
-	display: flex;
-	max-width: 1020px;
-	margin: 0 auto;
-	padding-bottom: 2em;
-}
-.main-container {
-	padding-bottom: 2rem;
-}
-
+/* ============================================= */
+/* ========== LOADING-BOX AND SPINNER ==========  */
+/* ============================================ */
 .loading-box {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
 .spinner {
 	height: 120px;
 	width: 120px;
@@ -98,9 +44,42 @@ footer {
 	border-radius: 50%;
 	animation: spin 1s linear infinite;
 }
-
 @keyframes spin {
 	to {
 		transform: rotate(360deg);
 	}
+}
+/* ============================================= */
+/* ================== PAGE SPECIFIC (NEW) =====  */
+/* ============================================ */
+.content-wrapper {
+	background-color: var(--background-content-wrapper);
+	border-radius: 50px;
+	padding: 1rem;
+	margin: 0 auto;
+	max-width: 550px;
+}
+.pay-ship {
+	display: flex;
+	flex-direction: row;
+}
+.payment-wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: fit-content;
+	margin: 0 auto;
+}
+.paragrafs {
+	max-width: 80%;
+	text-align: center;
+	padding-bottom: 1rem;
+	margin: 0 auto;
+}
+.some {
+	justify-content: center;
+	display: flex;
+}
+.newsletter {
+	padding: 0.5rem;
 }

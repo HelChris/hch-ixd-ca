@@ -32,13 +32,16 @@
 	border: none;
 	background-color: var(--form-fill-color);
 } */
-
 .checkout-buttons,
 .all-games-button,
 .cart-buttons,
-.success-button {
+.success-button,
+.contact-button {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
 	text-align: center;
+}
+.checkout-buttons {
+	padding-top: 1rem;
 }
