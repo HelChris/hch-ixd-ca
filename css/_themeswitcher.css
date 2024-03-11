@@ -1,6 +1,6 @@
 #theme-switcher {
 	background-color: var(--switch-bg);
-	border-radius: 50px;
+	border-radius: 3rem;
 	display: flex;
 	align-items: center;
 	gap: 1.33rem;
@@ -16,7 +16,7 @@
 	width: 2rem;
 	height: 2rem;
 	background-color: var(--switch-circle-bg);
-	border-radius: 50px;
+	border-radius: 3rem;
 	z-index: 0;
 	left: 0;
 	transform: translateX(var(--switch-circle-pos));
