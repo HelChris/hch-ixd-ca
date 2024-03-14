@@ -101,7 +101,7 @@
 }
 
 :root {
-	--default-border-radius: 8px;
+	--default-border-radius: 15px;
 	--border-radius-cards: 3rem;
 	--default-transition: color 0.3s ease-in-out,
 		background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,

@@ -49,15 +49,20 @@ footer {
 		transform: rotate(360deg);
 	}
 }
-/* ============================================= */
-/* ================== PAGE SPECIFIC (NEW) =====  */
-/* ============================================ */
 .content-wrapper {
 	background-color: var(--background-content-wrapper);
 	border-radius: 50px;
 	padding: 1rem;
 	margin: 0 auto;
-	max-width: 550px;
+	/* max-width: 300px; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.content-wrapper-details {
+	background: none;
+}
+.details-and-buttons {
+	padding: 1rem;
 }
 .pay-ship {
 	display: flex;

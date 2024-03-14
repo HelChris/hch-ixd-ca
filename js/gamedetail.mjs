@@ -22,8 +22,6 @@ document
 	.querySelector("#theme-switcher")
 	.addEventListener("click", switchTheme);
 
-
-	
 //get the game details
 async function getGame() {
 	const id = getQueryStringParam("id");
@@ -49,15 +47,27 @@ async function getGame() {
 		section.className = "game-detail-page";
 		resultsContainer.appendChild(section);
 
+		const gameCardWrapper = document.createElement("div");
+		gameCardWrapper.className = "gamecard-wrapper gamecard-wrapper-details";
+		section.appendChild(gameCardWrapper);
+
+		const imageWrapper = document.createElement("div");
+		imageWrapper.className = "image-wrapper";
+		gameCardWrapper.appendChild(imageWrapper);
+
 		const img = document.createElement("img");
 		img.src = game.image;
-		img.className = "image-size";
+		img.className = "gamecard-image";
 		img.alt = game.title;
-		section.appendChild(img);
+		imageWrapper.appendChild(img);
+
+		const detailsAndButton = document.createElement("div");
+		detailsAndButton.className = "details-and-buttons";
+		gameCardWrapper.appendChild(detailsAndButton);
 
 		const gameDetailDiv = document.createElement("div");
 		gameDetailDiv.className = "gamedetail";
-		section.appendChild(gameDetailDiv);
+		detailsAndButton.appendChild(gameDetailDiv);
 
 		// append game details
 		const details = [
@@ -75,11 +85,15 @@ async function getGame() {
 			gameDetailDiv.appendChild(element);
 		});
 
+		const gameCardButtons = document.createElement("div");
+		gameCardButtons.className = "gamecard-buttons";
+		detailsAndButton.appendChild(gameCardButtons);
+
 		const addToCart = document.createElement("a");
 		addToCart.href = "cart.html";
-		addToCart.className = "button button-turquoise";
+		addToCart.className = "gamedetail-button button button-turquoise";
 		addToCart.textContent = "Add to cart";
-		gameDetailDiv.appendChild(addToCart);
+		gameCardButtons.appendChild(addToCart);
 	} catch (error) {
 		console.error(error);
 		const resultsContainer = document.querySelector("#game-detail-page");

@@ -21,11 +21,15 @@ export async function getGames() {
 			gameCard.className = "gamecard-wrapper";
 			section.appendChild(gameCard);
 
+			const imageWrapper = document.createElement("div");
+			imageWrapper.className = "image-wrapper";
+			gameCard.appendChild(imageWrapper);
+
 			const img = document.createElement("img");
 			img.src = game.image;
 			img.className = "gamecard-image";
 			img.alt = game.title;
-			gameCard.appendChild(img);
+			imageWrapper.appendChild(img);
 
 			const gameCardCopy = document.createElement("div");
 			gameCardCopy.className = "gamecard-copy";
