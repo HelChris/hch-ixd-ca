@@ -28,10 +28,6 @@
 .button-turquoise:hover {
 	background-color: var(--button-background-color);
 }
-/* .search-button {
-	border: none;
-	background-color: var(--form-fill-color);
-} */
 .checkout-buttons,
 .all-games-button,
 .cart-buttons,
@@ -47,4 +43,10 @@
 }
 .all-games-button {
 	padding: 2rem 0 1rem 0;
+}
+.gamecard-buttons {
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.5rem;
+	justify-content: center;
 }
