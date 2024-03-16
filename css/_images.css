@@ -1,6 +1,7 @@
 .logo-gamehub-png {
 	float: left;
 	max-width: 90%;
+	padding: 1rem;
 }
 .about-img,
 .contact-img {
@@ -8,7 +9,7 @@
 	padding: 1rem;
 }
 .gamehub-logobanner-small {
-	width: 100vw
+	width: 100vw;
 }
 .success-icon {
 	display: flex;

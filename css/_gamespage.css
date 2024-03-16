@@ -1,7 +1,6 @@
 .game-category-banner {
 	background-image: var(--game-category-background);
 	background-repeat: no-repeat;
-	/* box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); */
 	box-shadow: var(--game-category-banner-box-shadow);
 	text-align: left;
 	color: var(--h2-game-category);
@@ -13,7 +12,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 2rem;
-	padding: 0rem 0rem 1rem 2rem;
+	padding: 1rem 0rem 1rem 2rem;
 }
 .category-navigation {
 	display: flex;
