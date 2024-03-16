@@ -34,6 +34,9 @@
 		display: flex;
 		justify-content: center;
 	}
+	.game-category-section {
+		justify-content: center;
+	}
 	@media (max-width: 600px) {
 		h1 {
 			display: flex;
@@ -49,6 +52,10 @@
 			display: flex;
 			justify-content: center;
 		}
+		.game-category-section {
+			justify-content: center;
+			padding-left: 1rem;
+		}
 		.pay-ship {
 			display: flex;
 			flex-wrap: wrap;
@@ -60,11 +67,24 @@
 			display: flex;
 			max-width: 100%;
 		}
+		nav,
+		.nav-items {
+			gap: 0;
+			padding: 0;
+		}
+		#theme-switcher {
+			margin: 0;
+		}
 		.product-list,
 		.gamecard-wrapper-details {
 			display: flex;
 			flex-direction: column;
 			max-width: 95vw;
+		}
+		.game-category-section {
+			justify-content: center;
+			max-width: 95vw;
+			padding-left: 1rem;
 		}
 		.details-and-buttons {
 			max-width: 95vw;
@@ -91,6 +111,10 @@
 		.checkout-buttons {
 			display: flex;
 			flex-wrap: wrap;
+		}
+		.cart-buttons {
+			display: flex;
+			flex-direction: column;
 		}
 		.bg-image-wrapper {
 			background-image: url(../images/hero-v5.jpg);
