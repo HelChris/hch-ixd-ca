@@ -8,7 +8,7 @@
 .gamecard-wrapper-details {
 	  display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .gamecard-copy {
 	display: flex;
