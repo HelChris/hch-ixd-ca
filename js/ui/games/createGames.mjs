@@ -9,11 +9,16 @@ export function createGames(container, games) {
 		imageWrapper.className = "image-wrapper";
 		gameCard.appendChild(imageWrapper);
 
+		const imgLink = document.createElement("a");
+		imgLink.href = `gamedetail.html?id=${game.id}`;
+
 		const img = document.createElement("img");
 		img.src = game.image;
 		img.className = "gamecard-image";
 		img.alt = game.title;
-		imageWrapper.appendChild(img);
+
+		imgLink.appendChild(img);
+		imageWrapper.appendChild(imgLink);
 
 		const gameCardCopy = document.createElement("div");
 		gameCardCopy.className = "gamecard-copy";
