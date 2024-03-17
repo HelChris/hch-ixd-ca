@@ -43,13 +43,15 @@ export function createGames(container, games) {
 		const readMore = document.createElement("a");
 		readMore.href = "gamedetail.html?id=" + game.id;
 		readMore.className = "button button-white";
-		readMore.textContent = "Read more";
+		readMore.textContent = "Game details";
+		readMore.setAttribute("aria-label", `Read more about ${game.title}`);
 		gameCardButtons.appendChild(readMore);
 
 		const addToCart = document.createElement("a");
 		addToCart.href = "cart.html";
 		addToCart.className = "button button-turquoise";
 		addToCart.textContent = "Add to cart";
+		addToCart.setAttribute("aria-label", `Add ${game.title} to cart`);
 		gameCardButtons.appendChild(addToCart);
 
 		container.appendChild(gameCard);

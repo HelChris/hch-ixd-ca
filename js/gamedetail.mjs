@@ -93,6 +93,7 @@ async function getGame() {
 		addToCart.href = "cart.html";
 		addToCart.className = "gamedetail-button button button-turquoise";
 		addToCart.textContent = "Add to cart";
+		addToCart.setAttribute("aria-label", `Add ${game.title} to cart`);
 		gameCardButtons.appendChild(addToCart);
 	} catch (error) {
 		console.error(error);
