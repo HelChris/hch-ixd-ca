@@ -30,6 +30,7 @@
 	);
 	--game-category-background: url(../images/banner-turkis-smal.jpg);
 	--game-category-banner-box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+	--game-category-banner-background-color: none;
 	--gamehub-banner-small: url("../images/gamehub-universe-of-games-banner-small.jpg");
 	--background-footer: url("/images/footer-banner.jpg");
 	--background-nav-wrapper: rgba(255, 255, 255, 0.8);
@@ -44,21 +45,14 @@
 	--muted-copy-color: #b1b0b5;
 	--copy-color-hover: #f5f5f6;
 	--h2-game-category: #000;
+	--popular-now-background-color: none;
+	--heroh1-background-color: none;
 
 	--switch-bg: #f5f5f6;
 	--switch-circle-bg: #ffd371;
-	--switch-circle-pos: 0.4rem; /* */
+	--switch-circle-pos: 0.4rem;
 	--icon-sun: #997f44;
 	--icon-moon: #b1b0b5;
-
-	/*--icon-social: xx;
-	 --icon-social-hover: xx;
-
-	 --input-bg: xx;
-	 --input-bg-hover: xx;
-	 --input-border-focus: xx;
-	 --input-text: xx;
-	 -- input-placeholder: */
 }
 
 :root[data-theme="dark"] {
@@ -71,6 +65,7 @@
 	--background-body: url("/images/cosmo2-dark.jpg");
 	--game-category-background: #3c3a47;
 	--game-category-banner-box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+	--game-category-banner-background-color: hsla(48, 11%, 9%, 0.75);
 	--gamehub-banner-small: url("/images/gamehub-banner-small-dark.png");
 	--background-footer: #24232a;
 	--background-nav-wrapper: rgba(0, 0, 0, 0.8);
@@ -85,21 +80,14 @@
 	--copy-color-hover: #f5f5f6;
 	--muted-copy-color: #b1b0b5;
 	--h2-game-category: #fff;
+	--popular-now-background-color: hsla(48, 11%, 9%, 0.75);
+	--h1-background-color: hsla(48, 11%, 9%, 0.75);
 
 	--switch-bg: #2d2c35;
 	--switch-circle-bg: #7190ff;
-	--switch-circle-pos: 3.2rem; /*2.88rem??? */
+	--switch-circle-pos: 3.2rem;
 	--icon-sun: var(--muted-copy-color);
 	--icon-moon: #dce3ff;
-
-	/*--icon-social: xx;
-	 --icon-social-hover: xx;
-
-	 --input-bg: #2d2c35;
-	 --input-bg-hover: xx;
-	 --input-border-focus: xx;
-	 --input-text: xx;
-	 -- input-placeholder: */
 }
 
 :root {

@@ -80,6 +80,12 @@ footer li {
 .heroh1 {
 	color: var(--headline-color);
 	text-shadow: #fc0 1px 0 8px;
+	background-color: var(--h1-background-color);
+	border-radius: 60px;
+}
+.games-h1,
+.popular {
+	background-color: var(--h1-background-color);
 }
 .cart-h1,
 .popular,

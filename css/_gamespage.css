@@ -2,6 +2,7 @@
 	background-image: var(--game-category-background);
 	background-repeat: no-repeat;
 	box-shadow: var(--game-category-banner-box-shadow);
+	background-color: var(--game-category-banner-background-color);
 	text-align: left;
 	color: var(--h2-game-category);
 	background-size: cover;
