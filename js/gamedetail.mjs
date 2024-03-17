@@ -76,14 +76,23 @@ async function getGame() {
 			{ tag: "p", text: `Genre: ${game.genre}` },
 			{ tag: "p", text: `Released: ${game.released}` },
 			{ tag: "p", text: `Age: ${game.ageRating}` },
-			{ tag: "p", text: game.description },
+			{ tag: "p", text: game.description, className: "game-description" },
 		];
 
 		details.forEach((detail) => {
 			const element = document.createElement(detail.tag);
 			element.textContent = detail.text;
+			if (detail.className) {
+				element.className = detail.className;
+			}
 			gameDetailDiv.appendChild(element);
 		});
+
+		// details.forEach((detail) => {
+		// 	const element = document.createElement(detail.tag);
+		// 	element.textContent = detail.text;
+		// 	gameDetailDiv.appendChild(element);
+		// });
 
 		const gameCardButtons = document.createElement("div");
 		gameCardButtons.className = "gamecard-buttons";

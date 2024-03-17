@@ -76,6 +76,9 @@ footer {
 .details-and-buttons {
 	padding: 1rem;
 }
+.game-description {
+	padding: 1rem 0 0.5rem 0;
+}
 .pay-ship {
 	display: flex;
 	flex-direction: row;
