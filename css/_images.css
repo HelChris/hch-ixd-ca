@@ -8,9 +8,18 @@
 	max-width: 100%;
 	padding: 1rem;
 }
-.gamehub-logobanner-small {
+/* .gamehub-logobanner-small {
+	background-image: var(--gamehub-banner-index);
 	max-width: 100%;
+} */
+.gamehub-logobanner-small {
+    background-image: var(--gamehub-banner-small);
+    background-size: cover;
+    background-position: center;
+    /* Set a specific height, or the div will collapse as there's no content inside */
+    height: 200px;
 }
+
 .success-icon {
 	display: flex;
 	justify-content: center;

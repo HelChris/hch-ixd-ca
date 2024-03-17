@@ -30,6 +30,7 @@
 	);
 	--game-category-background: url(../images/banner-turkis-smal.jpg);
 	--game-category-banner-box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+	--gamehub-banner-small: url("../images/gamehub-universe-of-games-banner-small.jpg");
 	--background-footer: url("/images/footer-banner.jpg");
 	--background-nav-wrapper: rgba(255, 255, 255, 0.8);
 	--background-content-wrapper: rgba(9, 148, 218, 0.158);
@@ -70,6 +71,7 @@
 	--background-body: url("/images/cosmo2-dark.jpg");
 	--game-category-background: #3c3a47;
 	--game-category-banner-box-shadow: 0 0 10px 5px rgba(89, 190, 211, 1);
+	--gamehub-banner-small: url("/images/gamehub-banner-small-dark.png");
 	--background-footer: #24232a;
 	--background-nav-wrapper: rgba(0, 0, 0, 0.8);
 	--background-content-wrapper: rgba(62, 61, 61, 0.7);
